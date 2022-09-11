@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This Is A Browser In HTML, CSS, JS">
+    <meta name="keywords" content="My Browser">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <title>My Browser</title>
+</head>
+
+<body>
+    <header>
+        <div class="tab_switcher_div">
+            <button class="tab_switcher" onclick="tab_1_switcher()">Tab 1</button>
+            <button class="tab_switcher" onclick="tab_2_switcher()">Tab 2</button>
+            <button class="tab_switcher" onclick="tab_3_switcher()">Tab 3</button>
+            <button class="tab_switcher" onclick="tab_4_switcher()">Tab 4</button>
+            <button class="tab_switcher" onclick="tab_5_switcher()">Tab 5</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <div id="tab_1" class="tabs">
+                <h3 class="tab_name">Tab 1</h3>
+                <button class="button_google" onclick="button_google_1()">Google</button>
+                <button class="button_home" onclick="button_home_1()">Home</button>
+                <input type="text" id="text_1" class="input_type_text" placeholder="Type A URL Only">
+                <button class="button_go" onclick="button_go_1()">Go</button>
+                <iframe title="Welcome To My Browser" src="welcome.html" id="iframe_1" class="iframe"></iframe>
+            </div>
+
+            <div id="tab_2" class="tabs">
+                <h3 class="tab_name">Tab 2</h3>
+                <button class="button_google" onclick="button_google_2()">Google</button>
+                <button class="button_home" onclick="button_home_2()">Home</button>
+                <input type="text" id="text_2" class="input_type_text" placeholder="Type A URL Only">
+                <button class="button_go" onclick="button_go_2()">Go</button>
+                <iframe title="Welcome To My Browser" src="welcome.html" id="iframe_2" class="iframe"></iframe>
+            </div>
+
+            <div id="tab_3" class="tabs">
+                <h3 class="tab_name">Tab 3</h3>
+                <button class="button_google" onclick="button_google_3()">Google</button>
+                <button class="button_home" onclick="button_home_3()">Home</button>
+                <input type="text" id="text_3" class="input_type_text" placeholder="Type A URL Only">
+                <button class="button_go" onclick="button_go_3()">Go</button>
+                <iframe title="Welcome To My Browser" src="welcome.html" id="iframe_3" class="iframe"></iframe>
+            </div>
+
+            <div id="tab_4" class="tabs">
+                <h3 class="tab_name">Tab 4</h3>
+                <button class="button_google" onclick="button_google_4()">Google</button>
+                <button class="button_home" onclick="button_home_4()">Home</button>
+                <input type="text" id="text_4" class="input_type_text" placeholder="Type A URL Only">
+                <button class="button_go" onclick="button_go_4()">Go</button>
+                <iframe title="Welcome To My Browser" src="welcome.html" id="iframe_4" class="iframe"></iframe>
+            </div>
+
+            <div id="tab_5" class="tabs">
+                <h3 class="tab_name">Tab 5</h3>
+                <button class="button_google" onclick="button_google_5()">Google</button>
+                <button class="button_home" onclick="button_home_5()">Home</button>
+                <input type="text" id="text_5" class="input_type_text" placeholder="Type A URL Only">
+                <button class="button_go" onclick="button_go_5()">Go</button>
+                <iframe title="Welcome To My Browser" src="welcome.html" id="iframe_5" class="iframe"></iframe>
+            </div>
+
+        </div>
+
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>
